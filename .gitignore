@@ -1,0 +1,40 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environment files
+*.exe
+activate
+activate.bat
+activate.fish
+Activate.ps1
+deactivate.bat
+
+# Local detection records and images
+Fetched_img/
+detection_history.csv
+temp.jpg
+mask1.png
+woman2.png
+
+# Dataset folders - exclude until redistribution permission is confirmed
+data/
+train/
+test/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+
+New Python File*.py
